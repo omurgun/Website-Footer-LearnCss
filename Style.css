@@ -1,0 +1,262 @@
+@charset "utf-8";
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    body {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    body {
+        font-size: 12px;
+    }
+}
+
+#TumSayfaAlani {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+main {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 148px;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 148px;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: top;
+    text-align: center;
+}
+
+#FooterMenulerALani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-top: 1px solid #ccc;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#FooterMenulerSinirlamaAlani {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #FooterMenulerSinirlamaAlani {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    /* L M S XS */
+    #FooterMenulerSinirlamaAlani {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.FooterMenuleriSutunlarAlani {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    .FooterMenuleriSutunlarAlani {
+        width: 50%;
+        min-width: 50%;
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    .FooterMenuleriSutunlarAlani {
+        width: 100%;
+        min-width: 100%;
+        min-width: 100%;
+    }
+}
+
+.FooterMenuleriSutunlariBaslikAlani {
+    display: block;
+    width: -webkit-calc(100%-10px);
+    width: -moz-calc(100%-10px);
+    width: -o-calc(100%-10px);
+    width: -ms-calc(100%-10px);
+    width: calc(100%-10px);
+    min-width: -webkit-calc(100%-10px);
+    min-width: -moz-calc(100%-10px);
+    min-width: -o-calc(100%-10px);
+    min-width: -ms-calc(100%-10px);
+    min-width: calc(100%-10px);
+    max-width: -webkit-calc(100%-10px);
+    max-width: -moz-calc(100%-10px);
+    max-width: -o-calc(100%-10px);
+    max-width: -ms-calc(100%-10px);
+    max-width: calc(100%-10px);
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
